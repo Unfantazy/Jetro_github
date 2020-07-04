@@ -63,11 +63,6 @@
   }
 }
 
-@media(min-width: 595px) {
-  .header__menu ul {
-    display: block !important;
-  }
-}
 
 @media(max-width: 590px) {
   .header__menu-btn {
@@ -151,5 +146,11 @@
 @media (max-width: 375px) {
   .my-works__title {
     margin-bottom: 10px;
+  }
+}
+
+@media(min-width: 595px) {
+  .header__menu ul {
+    display: block !important;
   }
 }

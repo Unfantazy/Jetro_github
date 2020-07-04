@@ -8,6 +8,12 @@ html {
   box-sizing: inherit;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   line-height: auto;
 }
@@ -66,7 +72,7 @@ a {
 }
 
 .header__logo a {
-  font-family: "Bebas";
+  font-family: "Bebas", sans-serif;
   font-size: 36px;
   font-weight: 400;
   color: #e8603c;
@@ -81,7 +87,7 @@ a {
 }
 
 .header__menu a {
-  font-family: "Bebas";
+  font-family: "Bebas", sans-serif;
   font-size: 16px;
   color: #b9b9b9;
   text-transform: uppercase;
@@ -205,12 +211,12 @@ a {
 }
 
 .slider__item-text p {
-  font-family: "HelveticaNeueCyr-Roman";
+  font-family: "HelveticaNeueCyr-Roman", sans-serif;
   font-size: 12px;
 }
 
 .slider__item-title {
-  font-family: "Bebas";
+  font-family: "Bebas", sans-serif;
   font-size: 18px;
   word-spacing: 3px;
   font-weight: 400;
@@ -278,7 +284,7 @@ a {
 }
 
 .my-works__title {
-  font-family: "Bebas";
+  font-family: "Bebas", sans-serif;
   color: #e8663c;
   font-size: 18px;
   line-height: 24px;
@@ -333,13 +339,13 @@ a {
   color: #fff;
   padding: 10px 16px 12px;
   text-transform: uppercase;
-  font-family: "Bebas";
+  font-family: "Bebas", sans-serif;
   font-size: 12px;
   line-height: 24px;
 }
 
 .works__title {
-  font-family: "Bebas";
+  font-family: "Bebas", sans-serif;
   color: #e8603c;
   font-size: 18px;
   text-transform: uppercase;
@@ -375,7 +381,7 @@ a {
 }
 
 .works__items-text {
-  font-family: "Bebas";
+  font-family: "Bebas", sans-serif;
   text-transform: uppercase;
   border: 1px solid #dbdbdb;
   border-top: none;
@@ -390,6 +396,7 @@ a {
 .footer {
   margin-top: 48px;
   overflow: hidden;
+  font-family: "HelveticaNeueCyr-Roman"
 }
 
 .footer__inner {
@@ -433,6 +440,7 @@ a {
 
 .footer__items-twits {
   padding-left: 0;
+  font-family: "HelveticaNeueCyr-Light";
 }
 
 .footer__items-twits li {
